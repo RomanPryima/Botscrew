@@ -1,0 +1,44 @@
+@-moz-keyframes waves { 0% { left: 0; }
+  100% { left: -998px; } }
+@-webkit-keyframes waves { 0% { left: 0; }
+  100% { left: -998px; } }
+@-o-keyframes waves { 0% { left: 0; }
+  100% { left: -998px; } }
+@-ms-keyframes waves { 0% { left: 0; }
+  100% { left: -998px; } }
+@keyframes waves { 0% { left: 0; }
+  100% { left: -998px; } }
+@-moz-keyframes booties { 0% { top: 0; }
+  10% { top: 15px; }
+  60% { top: 40px; }
+  80% { top: 30px; }
+  100% { top: 0; } }
+@-webkit-keyframes booties { 0% { top: 0; }
+  10% { top: 15px; }
+  60% { top: 40px; }
+  80% { top: 30px; }
+  100% { top: 0; } }
+@-o-keyframes booties { 0% { top: 0; }
+  10% { top: 15px; }
+  60% { top: 40px; }
+  80% { top: 30px; }
+  100% { top: 0; } }
+@-ms-keyframes booties { 0% { top: 0; }
+  10% { top: 15px; }
+  60% { top: 40px; }
+  80% { top: 30px; }
+  100% { top: 0; } }
+@keyframes booties { 0% { top: 0; }
+  10% { top: 15px; }
+  60% { top: 40px; }
+  80% { top: 30px; }
+  100% { top: 0; } }
+.waves { position: absolute; bottom: 0; left: 0; width: 4990px; z-index: 0; }
+.waves .wave { position: absolute; width: 100%; height: 300px; background-image: url("../img/wave.png"); background-repeat: repeat-x; }
+.waves .wave.bottom-wave { -webkit-animation: waves 22s infinite linear; -moz-animation: waves 22s infinite linear; -ms-animation: waves 22s infinite linear; -o-animation: waves 22s infinite linear; animation: waves 22s infinite linear; }
+
+@media (min-width: 890px) { .booties { position: relative; }
+  .booties--first { -webkit-animation: booties 7s infinite linear; -moz-animation: booties 7s infinite linear; -ms-animation: booties 7s infinite linear; -o-animation: booties 7s infinite linear; animation: booties 7s infinite linear; }
+  .booties--second { -webkit-animation: booties 4s infinite linear; -moz-animation: booties 4s infinite linear; -ms-animation: booties 4s infinite linear; -o-animation: booties 4s infinite linear; animation: booties 4s infinite linear; }
+  .booties--third { -webkit-animation: booties 6s infinite linear; -moz-animation: booties 6s infinite linear; -ms-animation: booties 6s infinite linear; -o-animation: booties 6s infinite linear; animation: booties 6s infinite linear; }
+  .booties--last { -webkit-animation: booties 5s infinite linear; -moz-animation: booties 5s infinite linear; -ms-animation: booties 5s infinite linear; -o-animation: booties 5s infinite linear; animation: booties 5s infinite linear; } }

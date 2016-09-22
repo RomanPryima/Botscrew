@@ -62,4 +62,35 @@
         e.preventDefault();
     })
 
-})(jQuery); // End of use strict
+})(jQuery); // End of use stric
+
+
+// custom script for the Graph//
+
+$(function () {
+    $('#graphic').highcharts({
+
+        title: {
+            text: ''
+        },
+
+        xAxis: {
+            tickInterval: 1
+        },
+
+        yAxis: {
+            type: 'logarithmic',
+            minorTickInterval: 0.1
+        },
+
+        tooltip: {
+            headerFormat: '{point.y} billions',
+            pointFormat: ''
+        },
+
+        series: [{
+            data: [1, 2, 2.2, 2.7, 3.1, 3.3, 4.1],
+            pointStart: 2010
+        }]
+    });
+});

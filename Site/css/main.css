@@ -85,6 +85,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 td, th { padding: 0; }
 
+
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print { *, *:before, *:after { background: transparent !important; color: #000 !important; box-shadow: none !important; text-shadow: none !important; }
   a, a:visited { text-decoration: underline; }
@@ -2267,7 +2269,10 @@ header .header-content .header-content-inner p { font-weight: 300; color: rgba(2
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name { font-size: 18px; }
 .portfolio-box:hover .portfolio-box-caption { opacity: 1; }
 @media (min-width: 768px) { .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category { font-size: 16px; }
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name { font-size: 22px; } }
+ .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name { font-size: 22px; } }
+
+.portfolio-item-left{ padding: 0% 0% 5% 0; margin-bottom: 5%}
+.portfolio-item-right{ padding: 5% 0 5% 0%; margin-bottom: 5%}
 
 .call-to-action h2 { margin: 0 auto 20px; }
 
@@ -2320,3 +2325,5 @@ input[type=datetime-local], input[type=datetime], input[type=email], input[type=
 .checkbox-light, .radio-light { transition: box-shadow 0.2s ease; }
 
 .radio-light { border-radius: 50%; }
+.portfolio-item-left{ padding: 2.5% 0% 0% 5%}
+.portfolio-item-right{ padding: 2.5% 5% 0% 0%}

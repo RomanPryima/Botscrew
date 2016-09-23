@@ -70,8 +70,24 @@
 $(function () {
     $('#graphic').highcharts({
 
+        legend: {
+            enabled: false
+        },
+        
         title: {
-            text: ''
+            text: '',
+
+            
+        },
+        
+        credits: {
+            enabled: false
+        },
+        
+        navigation: {
+            buttonOptions: {
+                enabled: false
+            }
         },
 
         xAxis: {
@@ -80,17 +96,26 @@ $(function () {
 
         yAxis: {
             type: 'logarithmic',
-            minorTickInterval: 0.1
+            minorTickInterval: 0.1,
+            visible: false
         },
 
         tooltip: {
-            headerFormat: '{point.y} billions',
+            backgroundColor: '#7cb5ec',        
+                 
+                
+            borderWidth: 0,
+            borderRadius: 150,
+            shadow: false,
+            
+            headerFormat: '<b>{point.y}</b><br><b>billions</b>',
             pointFormat: ''
         },
 
         series: [{
-            data: [1, 2, 2.2, 2.7, 3.1, 3.3, 4.1],
+            data: [1, 2, 2.1, 2.7, 3.1, 3.5, 4.1],
             pointStart: 2010
-        }]
+        },
+        ]
     });
 });

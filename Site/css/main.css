@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+html { font-family: 'Open Sans', sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
 
 body { margin: 0; }
 
@@ -638,7 +638,7 @@ td, th { padding: 0; }
 
 html { font-size: 10px; -webkit-tap-highlight-color: transparent; }
 
-body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.42857; color: #333333; background-color: #fff; }
+body { font-family: 'Open Sans', sans-serif; sans-serif; font-size: 14px; line-height: 1.42857; color: #333333; background-color: #fff; }
 
 input, button, select, textarea { font-family: inherit; font-size: inherit; line-height: inherit; }
 
@@ -2205,7 +2205,6 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 @media print { .hidden-print { display: none !important; } }
 body, html { height: 100%; width: 100%; }
 
-body { font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
 
 hr { border-color: #44a8f4; border-width: 3px; max-width: 50px; }
 hr.light { border-color: #777777; border-width: thin; }

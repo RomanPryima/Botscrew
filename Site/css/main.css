@@ -1139,6 +1139,7 @@ table td[class*="col-"], table th[class*="col-"] { position: static; float: none
   .table-responsive > .table-bordered > thead > tr > th:last-child, .table-responsive > .table-bordered > thead > tr > td:last-child, .table-responsive > .table-bordered > tbody > tr > th:last-child, .table-responsive > .table-bordered > tbody > tr > td:last-child, .table-responsive > .table-bordered > tfoot > tr > th:last-child, .table-responsive > .table-bordered > tfoot > tr > td:last-child { border-right: 0; }
   .table-responsive > .table-bordered > tbody > tr:last-child > th, .table-responsive > .table-bordered > tbody > tr:last-child > td, .table-responsive > .table-bordered > tfoot > tr:last-child > th, .table-responsive > .table-bordered > tfoot > tr:last-child > td { border-bottom: 0; } }
 
+
 fieldset { padding: 0; margin: 0; border: 0; min-width: 0; }
 
 legend { display: block; width: 100%; padding: 0; margin-bottom: 20px; font-size: 21px; line-height: inherit; color: #333333; border: 0; border-bottom: 1px solid #e5e5e5; }
@@ -1351,6 +1352,7 @@ a.btn.disabled, fieldset[disabled] a.btn { pointer-events: none; }
 .btn-block { display: block; width: 100%; }
 
 .btn-block + .btn-block { margin-top: 5px; }
+.social-link { color: grey; font-size: 24px; margin: 1%}
 
 input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block { width: 100%; }
 
